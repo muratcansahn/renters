@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css?family=Caveat|Mali");
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+:root {
+  --mainDark: #242325;
+  --mainGreen: #61e786;
+  --mainWhite: #fff;
+  --mainGrey: #eeeeee;
+}
+body {
+  font-family: "Mali", cursive;
+  background: var(--mainWhite);
+  color: var(--mainDark);
+}
+.green-btn{
+  color: #61e786;
+  border: 1px solid;
+  background: transparent;
+  
+
+}
+.green-btn:hover{
+color: chartreuse;
+  
+}
+.text-basic{
+  font-family: 'Architects Daughter', cursive;
+}
+
+.deneme{
+  font-family: 'Architects Daughter', cursive;
+
+}
+#map{
+  color: #61e786;
+}
+.green-bg{
+  background-color: #61e786;
+}
+.text-green{
+  color: #61e786;
+
+}
+.banner-img{
+  background:url(../img/bannerBcg.jpeg)
+  center/cover fixed ;
+  height: 695px;
+  
+}
+.price{
+  margin-top: 50px;
+}
+#banner {
+ bottom: 0;
+ left: 0;
+ position: absolute;
+}
+.contact{
+  background-color: #61e786;
+  
+}
+.title-underline{
+  height:5px;
+  width: 200px;
+  background-color: #61e786;
+  margin: 0 auto;
+color: #61e786;
+}
+.icons{
+  position: absolute;
+  bottom:16%;
+  left: 45%;
+}
+.deneme{
+  background-color: rgba(211, 211, 211, 0.247);
+}
+.title-underline2{
+  height:5px;
+  width: 270px;
+  background-color: #61e786;
+  margin-right: 80%;
+color: #61e786;
+}
+
+.services{
+background-color: rgba(211, 211, 211, 0.247);
+}
+
+.title-underline3{
+  height:5px;
+  width: 150px;
+  background-color: #61e786;
+  margin-right: 80%;
+color: #61e786;
+
+}
+.img-container:hover{
+filter: drop-shadow(8px 8px 8px black);
+filter: brightness(70%);
+}
+.gallery-img-container{
+  transition: all 500ms linear;
+  
+}
+white-icon{
+  color: #fff;
+}
+.gallery-icon{
+  position: absolute;
+  top: 50%;
+  left:50%;
+  color: #fff;
+}
+.tour,.services{
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../img/bannerBcg.jpeg") center/cover fixed no-repeat;
+}
+
+.tour-icon{
+  color:white ;
+}
+
+.btn-grad {background-image: linear-gradient(to right, #1D976C 0%, #93F9B9  51%, #1D976C  100%)}
+.btn-grad {
+  width: 100px;
+  height: 40px;
+   margin: 10px;
+   
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+.footer{
+  background-color: var(--mainDark);
+
+}
+.text-white{
+  color: white;
+}
+.transportation{
+  text-align: left
+}
+body{
+  overflow-x: hidden;
+}
